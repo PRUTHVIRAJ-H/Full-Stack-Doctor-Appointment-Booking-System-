@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar{
+    @apply hidden
+}
+
+@theme {
+  /* This defines your 'grid-cols-auto' utility */
+  --grid-template-columns-auto: repeat(auto-fill, minmax(180px, 1fr));
+}
